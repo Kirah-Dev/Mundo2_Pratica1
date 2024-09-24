@@ -1,0 +1,96 @@
+/* a) Logotipo */
+
+.logo {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* b) Áreas semânticas */
+
+  header {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #e7d8b1; 
+    text-align: left; 
+    align-items: first baseline;
+    color: darkslategrey;
+    height: 60px;
+   
+    
+  }
+  
+  main {
+    background-color: #e7d8b1; 
+    display: flex; 
+    flex-direction: column; 
+    color: #222120;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+  }
+  
+  footer {
+    background-color: #2c2b29; 
+    text-align: center; 
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    height: 25px;
+  }
+  
+  /* c) Características tipográficas globais */
+  body {
+    padding-top: 20px;
+    background-color: #e7d8b1;
+    font-family: Arial, sans-serif;
+    line-height: 1.0;
+    color: #913b3b;
+    margin: 0;
+    
+  }
+  
+  h2 {
+    font-weight: bold; 
+    color: #913b3b;
+  }
+  
+  /* d) Explorar as possibilidades da visualização no modo flex */
+  .container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center /* Alinhar os itens ao centro horizontalmente */
+    
+    
+    
+  }
+  
+  /* e) Posicionar adequadamente as áreas semânticas */
+  
+  nav {
+    background-color: #e7d8b1;
+    display: flex; /* Ativar o modo flex para a navegação */
+    justify-content: space-between; /* Distribuir os itens com espaço entre eles */
+    align-items: center; /* Alinhar os itens ao centro verticalmente */
+    padding: 10px; /* Espaçamento interno */
+    
+  }
+  
+  nav ul {
+    list-style: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover espaçamento da lista */
+    
+    
+  }
+  
+  nav li {
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+    
+    
+  }
+  
+  nav a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #333; 
+    font-weight: bold; 
+    background-color: #e7d8b1;
+  }

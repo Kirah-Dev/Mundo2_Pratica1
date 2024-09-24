@@ -1,0 +1,32 @@
+.receita {
+    width: 200px; 
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.receita img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.receita h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.receita ul {
+    list-style: disc;
+    margin-bottom: 10px;
+}
+
+.receita p {
+    line-height: 1.0;
+}
+
+.receita strong {
+    font-weight: bold;
+}
